@@ -1,0 +1,14 @@
+# Ignore everything
+*
+
+# Except .gitignore file itself
+!.gitignore
+
+# Except Python files
+!*.py
+
+# Ignore all directories
+*/
+
+# Except directories that contain Python files
+!*/.gitkeep
